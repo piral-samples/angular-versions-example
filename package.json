@@ -7,6 +7,7 @@
   "scripts": {
     "start": "yarn watch:all",
     "postinstall": "lerna run declaration && ngcc",
+    "ci:release": "piral build packages/app-shell/src/index.html --type release",
     "add:pilet": "pilet new app-shell --target packages/${name:-x}-pilet",
     "upgrade:pilet": "pilet upgrade --target packages/${name:-x}-pilet",
     "watch:all": "pilet debug 'packages/*-pilet/src/index.tsx'",

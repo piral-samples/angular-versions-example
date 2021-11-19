@@ -6,6 +6,8 @@
 
 :zap: Let each pilet decide what version of Angular to use, but share that version implicitly if possible.
 
+You can visit this demo at [angular-versions.samples.piral.cloud/](https://angular-versions.samples.piral.cloud/).
+
 ## Getting Started
 
 Install the dependencies:
