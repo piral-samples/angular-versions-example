@@ -25,7 +25,7 @@ jobs:
       - name: Build Website
         run: |
           yarn ci:release
-          echo "angular-versions.piral.cloud" > dist/release/CNAME
+          echo "angular-versions.samples.piral.cloud" > dist/release/CNAME
           cp dist/release/index.html dist/release/404.html
       - name: Deploy Website
         run: |
