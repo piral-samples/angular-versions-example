@@ -1,0 +1,58 @@
+{
+  "name": "second-pilet",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "pilet"
+  ],
+  "importmap": {
+    "imports": {
+      "@angular/core": "@angular/core",
+      "@angular/common": "@angular/common",
+      "@angular/compiler": "@angular/compiler",
+      "@angular/platform-browser": "@angular/platform-browser",
+      "@angular/platform-browser-dynamic": "@angular/platform-browser-dynamic",
+      "@angular/router": "@angular/router"
+    }
+  },
+  "dependencies": {
+    "@angular/common": "^11",
+    "@angular/compiler": "^11",
+    "@angular/core": "^11",
+    "@angular/router": "^11",
+    "@angular/platform-browser": "^11",
+    "@angular/platform-browser-dynamic": "^11",
+    "piral-ng": "0.14.0"
+  },
+  "devDependencies": {
+    "@angular/compiler-cli": "^11",
+    "@ngtools/webpack": "^11",
+    "app-shell": "1.0.0"
+  },
+  "peerDependencies": {
+    "@dbeining/react-atom": "*",
+    "@libre/atom": "*",
+    "history": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-router": "*",
+    "react-router-dom": "*",
+    "tslib": "*",
+    "path-to-regexp": "*",
+    "app-shell": "*"
+  },
+  "scripts": {
+    "start": "pilet debug",
+    "build": "pilet build",
+    "upgrade": "pilet upgrade",
+    "upgrade-pilet": "pilet upgrade --force-overwrite yes"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "piral": {
+    "comment": "Keep this section to use the Piral CLI.",
+    "name": "app-shell"
+  }
+}

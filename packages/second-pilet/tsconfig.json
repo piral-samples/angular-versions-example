@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": false,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "skipLibCheck": true,
+    "lib": ["dom", "es2018"],
+    "moduleResolution": "node",
+    "module": "esnext",
+    "jsx": "react",
+    "importHelpers": true
+  },
+  "files": [
+    "./node_modules/@angular/common/bundles/common.umd.js",
+    "./node_modules/@angular/core/bundles/core.umd.js",
+    "./node_modules/@angular/platform-browser/bundles/platform-browser.umd.js",
+    "./node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js",
+    "./node_modules/@angular/router/bundles/router.umd.js"
+  ],
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "angularCompilerOptions": {
+    "compilationMode": "partial",
+    "disableTypeScriptVersionCheck": true
+  }
+}
